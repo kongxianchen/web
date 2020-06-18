@@ -1,0 +1,205 @@
+body{
+    font-size: 12px;
+    background: #80C7DB url(../images/阳.jpg) 50% -60px scroll no-repeat;
+    color: #5d5d5d;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul li{ 
+    list-style: none;
+}
+.title1{
+    text-align: center;
+    overflow: hidden;
+    margin: 50px 0;
+}
+h2{
+    font-size: 26px;
+    position: relative;
+    width: 260px;
+    margin: auto;
+}
+h2:before{
+    left: -60px;
+}
+h2:after{
+    right: -60px;
+}
+h2:before,h2:after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #000;
+    top: 30px;
+}
+span{
+    font-size: 16px;
+    color: #dd6969
+}
+/***********************header*********************/
+.header{
+    padding: 40px 0;
+    width: 1000px;
+    margin: auto;
+}
+.header h1{
+    font-size: 45px;
+    text-shadow: #fff 1px 1px 1px;
+}
+.header p{
+    margin: 17px 0 0 0;
+    text-shadow: #000 1px 1px 1px;
+    color: #fff;
+    font-size: 25px;
+}
+.blank {
+    height: 5px;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    clear: both;
+}
+
+/******************firstbox************************/
+.inner{
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+
+.inner .tp1{
+    float: left;
+    margin-left: 50px;
+    margin-right:20px;
+}
+
+.inner  p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/******************secondbox***********************/
+.secondbox{
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.inner1{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/************************content1*************************************************/
+
+.inner11 .nr p{
+    font-size: 15px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 130px;
+    width: 600px;
+}
+.inner11 .hua{
+    margin-right: 80px;
+}
+/************************content2***************************/
+.innerbox .box1{
+    float: left;
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+.innerbox .box2,.innerbox .box3,.innerbox .box4{
+    float: left;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+.innerbox h3{
+    font-size: 18px;
+    color: #FF6666;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-shadow: #fff 1px 1px 1px;
+}
+.innerbox p{
+    width: 190px;
+}
+/************************content3,4***************************/
+.part1,.part2{
+    width: 100%;
+    height: 355px;
+}
+.inner2 h3{
+    margin: 30px 0 20px 0px;
+    font-size: 22px;
+}
+.inner2 span{
+    font-size: 18px;
+    color: #999;
+    border-top: #d4cfcf 1px solid;
+    padding: 10px;
+}
+
+.inner2   .po1{
+    float: right;
+    margin-right: 100px;
+}
+.inner2  .po2{
+    float:left;
+    margin-left: 100px;
+}
+.inner2  .part1 .wzl{
+    float: left;
+    margin-left: 100px;
+}
+.inner2  .part2  .wzr{
+    float: right;
+    margin-right: 100px;
+}
+.inner2  h3,.inner2 span{
+    margin-left: 180px;
+}
+
+.inner2 .part1 p{
+    font-size: 13px;
+    width: 500px;
+}
+.inner2 .part2 p{
+    font-size: 15px;
+    width: 500px;
+}
+/***********************footer***********************/
+.footer{
+    background: #111;
+    height: 60px;
+    font-family: "微软雅黑";
+}
+
+.footer .menu{
+    position: relative;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+.footer .menu li{
+    float: left;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    line-height: 46px;
+}
+.footer .menu li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer .menu p{
+    color: #fff;
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+}

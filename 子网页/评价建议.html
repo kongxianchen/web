@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>评价建议</title>
+    <link rel="stylesheet" href="../css/pj.css">
+</head>
+<body>
+   <!-- 可以通过左边的大纲视图查看文档结构，选择按位置查看 ,本页面中将跳转链接放入了页脚区-->
+   <!-- 标题 -->
+      <div class="head">
+          <h1>感谢您的浏览！</h1>
+          <p>请留下您的评价建议吧！</p>
+      </div> 
+      <!-- end of head -->
+      <!-- 一个分界图的插入 -->
+      <div class="ft"></div>
+      <!-- end of ft -->
+      <!-- 表单内容区,总共四个,firstbox,secondbox,thirdbox,lastbox,每个里面都有共同的inne1 -->
+      <div class="inner">
+        <form>
+          <div class="firstbox">
+            <div class="inner1">
+              <p>
+               请选择所在的国家:
+                <select name="beans">
+                  <option value="中国">中国</option>
+                  <option value="美国">美国</option>
+                  <option value="英国">英国</option>
+                  <option value="日本">日本</option>
+                </select>
+             </p>
+            <div class="first">
+              <p>
+                性别：<br>
+                 <input type="checkbox" name="extras[]" value="man">男<br>
+                 <input type="checkbox" name="extras[]" value="woman">女<br>
+              </p>
+            </div>
+            <div class="second">
+                请填写您的相关信息: <br>
+                姓名：
+                  <input type="text" name="姓名" value=""><br>
+               地址：
+                  <input type="text" name="地址" value=""><br>
+               城市：
+                  <input type="text" name="城市" value=""><br>
+               邮箱：
+                 <input type="text" name="E-邮箱：" value=""><br>
+                电话：
+                  <input type="tel" name="电话" value=""><br>
+            </div>
+          </div>
+        </div>
+          <div class="secondbox">
+            <div class="inner1">
+              <table class="attitude">
+                <tbody>
+                    <tr>
+                        <td class="question">
+                            您对网站整体感觉如何？
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="answer">                                                                                                                                         
+                            <input class="radio" type="radio" value="1" name="attitude" id="answer1">
+                                   很不错<br>
+                            <input class="radio" type="radio" value="2" name="attitude" id="answer2">
+                                   仍有努力空间 <br>                                                                                                                                    
+                            <input class="radio" type="radio" value="3" name="attitude" id="answer3">
+                                    一般<br>
+                            <input class="radio" type="radio" value="4" name="attitude" id="answer4">
+                                    不太喜欢<br>                                                 
+                        </td>
+                    </tr>
+                </tbody>
+             </table>
+            </div>
+          </div>
+          <div class="thirdbox">
+            <div class="inner1">
+              <p>
+                您的评价建议:<br>
+                  <textarea name="comments" rows="10" cols="60"></textarea>
+              </p>
+            </div>
+          </div>
+          <table class="lastbox">
+            <tbody>
+                <tr>                        
+                    <td class="submit-buttons">  
+                        <button class="submit-button" type="submit"  value="提交 " name="move2" id="movesubmitbtn" role="button">
+                            提交 
+                        </button>
+                    </td>                        
+                </tr>
+            </tbody>
+        </table>
+      </form>
+  </div>
+  <!-- end of inner -->
+  <!-- 页脚区 -->
+  <div class="footer">
+    <div class="menu">
+      <ul>
+          <li>
+              <a href="../index.html">个人首页</a>
+          </li>
+          <li>
+              <a href="学习之路.html">学习旅途</a>
+          </li>
+          <li>
+              <a href="个人简历.html">个人简历</a>
+          </li>
+          <li>
+              <a href="兴趣爱好.html">兴趣爱好</a>
+          </li>
+      </ul>
+  </div>
+  <!-- end of footer -->
+</body>
+</html>

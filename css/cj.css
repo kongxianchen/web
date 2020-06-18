@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 12px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    font-family: "SimSun";
+    background: url(../images/简历.jpg)  no-repeat;
+    background-size: 100% 100%;
+  }
+  ul li{
+    list-style: none;
+}
+  /**************************nav************************************/
+  .nav{
+    height: 64px;
+    font-family: "微软雅黑";
+}
+.menu{
+    position: relative;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.menu li{
+    float: right;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    line-height: 46px;
+}
+.menu li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+/**********************inner**************************/
+  .inner {
+    width: 1000px;
+    margin-top: 150px;
+    margin-left: 260px;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: solid rgb(5, 5, 5);
+    border-width: 0px 2px 2px 2px;
+    text-align: center;/*居中*/
+  }
+ .first{
+    border-width: 2px 2px 2px 2px;
+}
+  td {
+    border: solid rgb(15, 15, 15);
+    border-width: 0px 1px 1px 1px;
+    padding: 2px 10px;
+}
+.table1{
+     width: 800px;
+    min-height: 600px;
+}
+
+.td1 p{
+  font-size: 15px;
+  font-weight: 700;
+}
+.td{
+  font-weight: 700;
+}
+/***************************页脚区********************************/
+.footer{
+    background: #111;
+    line-height: 40px;
+}
+.footer p{
+    color: #FFF;
+    text-align: right;
+    width: 1000px;
+    margin: auto;
+}

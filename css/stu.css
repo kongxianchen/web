@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:#E3E3E5 url(../images/bj.jpg) 50% top scroll no-repeat;
+    color: #3F3E3C;
+
+}
+ul li{
+    list-style: none;
+}
+div#container{
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div#content-1{
+    width: 960px;
+    height: 300px;
+    padding: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.blank{
+    height: 5px;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    clear: both;
+}
+p {
+    margin-bottom: 7px;
+}
+/***************************nav设置导航栏的相关属性**********************************/
+.nav{
+    height: 64px;
+    background: url(../images/dh.png) no-repeat;
+    font-family: "微软雅黑";
+}
+.menu{
+    position: relative;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+.menu li{
+    float: left;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    line-height: 46px;
+}
+.menu li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+/****************header*****************************************/
+.header{
+    padding: 40px 0;
+    width: 1000px;
+    margin: auto;
+}
+.header h1{
+    font-size: 36px;
+    text-shadow: #fff 1px 1px 1px;
+    font-family: 'Arizonia', cursive;
+}
+.header p{
+    margin: 17px 0 0 0;
+    text-shadow: #000 1px 1px 1px;
+    color: #fff;
+}
+/*********************************container*************************/
+.timelist{
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style: none;
+    position: relative; 
+}
+.timelist:before{
+    background: #afdcf8;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    left: 158px;
+    margin-left: -10px;
+}
+.timelist li{
+    position: relative;
+}
+.timelist li .tb{
+    width: 10px;
+    height: 10px;
+    left: 170px;
+    top: 15px;
+    position: absolute;
+    color: #fff;
+    background: #46a4da;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #afdcf8;
+    margin: 0 0 0 -25px;
+}
+.timelist li .inner{
+    margin: 0 30px 15px 180px;
+    color:#111;
+    padding: 2em;
+    position: relative;
+    height: 150px;
+}
+
+.timelist li .time{
+    width: 100px;
+    padding-right: 30px;
+    position: absolute;
+    margin-left: 80px;
+}
+.timelist li .time .first{
+    font-size: 14px;
+    color: #023555;
+}
+.timelist li .time .second{
+    font-size: 25px;
+    color: #0b0c0c;
+}
+.timelist li .inner h2{
+    margin-top: 0px;
+    padding: 0 0 10px 0;
+    font-size: 16px;
+    text-shadow: rgba(124, 188, 243, 0.71) 1px 1px 1px;
+}
+.pholeft{
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+/****************footer**********************************/
+.footer{
+    background: #111;
+    line-height: 40px;
+}
+.footer p{
+    color: #FFF;
+    text-align: right;
+    width: 1000px;
+    margin: auto;
+}
